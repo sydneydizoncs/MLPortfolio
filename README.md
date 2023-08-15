@@ -1,3 +1,4 @@
+# Final Project Explanation:
 # Binary Classification: Neural Network - Sentiment Analysis via Vectorization
 
 The output I will be predicting will be the overall opinion of a certain Amazon book based on its review; whether the content of the book review contains positive connotations or negative connotations (true/false value). This is a classification problem because the target values of Good Review/Bad Review are different categories, and cannot be measured in a numeric way (i.e. no average can be taken). By taking the Positive Review column and running code that counts the values of True and the values of False, I got a distribution of 993 False and 980 True; because the values are balanced, there is no class imbalance, and therefore, no need to tamper or clean the dataset before use. Predicting whether a book review is positive or not can help companies optimize marketing efforts; they can market books with more positive reviews in order to focus selling more well-liked books, and therefore increase sales. Along with that, they can use this to filter and personalize content recommendations to users, which can increase user engagement and satisfaction.
@@ -16,3 +17,5 @@ I will divide the dataset into training, validation, and test sets in order to t
 
 -  Analyze and Improve Model:
 In order to analyze the model and improve it, I can look at misclassified instances to identify patterns or challenges that the model struggles with. In order to fix this, I can add additional features, such as sentiment scores, or try different vectorization methods to improve model performance. 
+
+Edit 8/14/23: Added additional work for other models
